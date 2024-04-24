@@ -106,6 +106,7 @@ kire logs/name.obj --save images/name/ --wogui
 
 ### evaluation of CLIP-similarity
 python -m kiui.cli.clip_sim data/name_rgba.png logs/name.obj
+python -m kiui.cli.clip_sim_text prompt logs/name.obj
 ```
 
 Please check `./configs/image.yaml` for more options.
