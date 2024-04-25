@@ -200,6 +200,11 @@ python main.py --config configs/image_sai.yaml input=data/name_rgba.png save_pat
 kire mesh.obj --force_cuda_rast
 ```
 
+#Bugs
+ - Link not found: https://github.com/microsoft/DeepSpeed/issues/3410
+ - Tinycuda: https://github.com/NVlabs/tiny-cuda-nn
+ - Pymeshlab: 2022.post3 + https://github.com/3DTopia/LGM/issues/2
+
 ## Acknowledgement
 
 This work is built on many amazing research works and open-source projects, thanks a lot to all the authors for sharing!
